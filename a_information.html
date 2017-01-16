@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Information</title>
+	<title>A : Information</title>
 	<style type="text/css">
 		#profile_pic {
 			width: 200px;
@@ -11,25 +11,44 @@
 		div {
 			width: 800px;
 			height: auto;
-			margin-left:auto; 
-			margin-right:auto;
+			margin:auto; 
+			margin-top: 20px;
 			border-radius: 10px;
-			box-shadow: 5px; 
 			padding: 20px;
 			background: lightblue;
 			text-align: center;
+			box-shadow: 10px 10px 5px #888888;
+		}
+
+		.prefix {
+			font-size: 24px;
+			font-weight: bold;
+			color: #D74545;
+		}
+
+		.infor {
+			font-size: 24px;
+			color: #34A12E;
+		}
+
+		img{
+			margin: 5px;
+			border:3px solid lightyellow;
+		}
+		body{
+			background-color: #BCB5BA;
 		}
 	</style>
 </head>
 <body>
 	<div>
-	<H1>My Information</H1>
-	<span>Name : </span>
-	<span>TASANAI PINGMEANG</span><br>
-	<span>Student ID : </span>
-	<span>582115024</span><br>
-	<span>Favorite Movie : </span>
-	<span>Harry Potter</span><br>
+	<H1 style="text-decoration: underline; color: #BD2595;">My Information</H1>
+	<span class="prefix">Name : </span>
+	<span class="infor">TASANAI PINGMEANG</span><br>
+	<span class="prefix">Student ID : </span>
+	<span class="infor">582115024</span><br>
+	<span class="prefix">Favorite Movie : </span>
+	<span class="infor">Harry Potter</span><br>
 	<img src="img/a_profile.jpg" id="profile_pic"><br>
 	</div>
 
